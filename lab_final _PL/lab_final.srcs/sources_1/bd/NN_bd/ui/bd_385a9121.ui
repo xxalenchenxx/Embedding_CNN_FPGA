@@ -1,0 +1,87 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.579504",
+   "Default View_TopLeft":"-192,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_start_ConV1 -pg 1 -lvl 0 -x -20 -y 180 -defaultsOSRD
+preplace port port-id_sys_clk -pg 1 -lvl 0 -x -20 -y 380 -defaultsOSRD
+preplace port port-id_ram_en_rtb -pg 1 -lvl 0 -x -20 -y 360 -defaultsOSRD
+preplace port port-id_end_ConV1 -pg 1 -lvl 7 -x 2430 -y 980 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x -20 -y 110 -defaultsOSRD
+preplace portBus ram_addr_rtb -pg 1 -lvl 0 -x -20 -y 20 -defaultsOSRD
+preplace portBus ram_data_rtb -pg 1 -lvl 6 -x 2240 -y 1200 -defaultsOSRD -bot
+preplace inst blk_rom_weight -pg 1 -lvl 6 -x 2310 -y 1080 -defaultsOSRD
+preplace inst blk_rom_other_weight -pg 1 -lvl 6 -x 2310 -y 880 -defaultsOSRD
+preplace inst blk_ram_temp -pg 1 -lvl 6 -x 2310 -y 460 -defaultsOSRD
+preplace inst blk_rom_inimg -pg 1 -lvl 6 -x 2310 -y 700 -defaultsOSRD
+preplace inst MP1_0 -pg 1 -lvl 1 -x 200 -y 500 -defaultsOSRD
+preplace inst ConV1_0 -pg 1 -lvl 2 -x 630 -y 210 -defaultsOSRD
+preplace inst MUX_mem_out_0 -pg 1 -lvl 5 -x 1930 -y 510 -defaultsOSRD
+preplace inst FC_0 -pg 1 -lvl 4 -x 1450 -y 900 -defaultsOSRD
+preplace inst MP2_0 -pg 1 -lvl 3 -x 1010 -y 690 -defaultsOSRD
+preplace netloc ConV1_0_end_ConV1 1 0 5 30 380 370 400 800J 380 NJ 380 1660
+preplace netloc ConV1_0_end_ConV3 1 2 3 810J 390 NJ 390 N
+preplace netloc ConV1_0_ram_addr_ri 1 2 3 NJ 120 NJ 120 1730
+preplace netloc ConV1_0_ram_addr_w 1 2 3 NJ 160 NJ 160 1620
+preplace netloc ConV1_0_ram_data_w 1 2 3 NJ 180 NJ 180 1620
+preplace netloc ConV1_0_ram_en1 1 2 3 NJ 200 NJ 200 1620
+preplace netloc ConV1_0_ram_en_ri 1 2 3 NJ 140 NJ 140 1720
+preplace netloc ConV1_0_ram_wea 1 2 3 NJ 220 NJ 220 1620
+preplace netloc ConV1_0_rom_addr_ri 1 2 3 NJ 240 NJ 240 1680
+preplace netloc ConV1_0_rom_addr_row 1 2 3 NJ 320 NJ 320 1650
+preplace netloc ConV1_0_rom_addr_rw 1 2 3 NJ 280 NJ 280 1620
+preplace netloc ConV1_0_rom_en_ri 1 2 3 NJ 260 NJ 260 1670
+preplace netloc ConV1_0_rom_en_row 1 2 3 NJ 340 NJ 340 1650
+preplace netloc ConV1_0_rom_en_rw 1 2 3 NJ 300 NJ 300 1650
+preplace netloc FC_0_end_FC 1 4 3 1720 990 2200 980 N
+preplace netloc FC_0_ram_addr_r 1 4 1 1700 830n
+preplace netloc FC_0_ram_addr_w 1 4 1 1660 750n
+preplace netloc FC_0_ram_data_w 1 4 1 1670 770n
+preplace netloc FC_0_ram_en 1 4 1 1680 790n
+preplace netloc FC_0_ram_en_r 1 4 1 1730 850n
+preplace netloc FC_0_ram_wea 1 4 1 1690 810n
+preplace netloc FC_0_rom_addr_row 1 4 1 1680 880n
+preplace netloc FC_0_rom_addr_rw 1 4 1 1710 870n
+preplace netloc FC_0_rom_en_row 1 4 1 1630 900n
+preplace netloc FC_0_rom_en_rw 1 4 1 1740 890n
+preplace netloc MP1_0_end_MP1 1 1 4 390J 440 NJ 440 NJ 440 1660
+preplace netloc MP1_0_ram_addr_r 1 1 4 NJ 540 NJ 540 NJ 540 1720
+preplace netloc MP1_0_ram_addr_w 1 1 4 NJ 460 NJ 460 NJ 460 1620
+preplace netloc MP1_0_ram_data_w 1 1 4 NJ 480 NJ 480 NJ 480 1620
+preplace netloc MP1_0_ram_en 1 1 4 NJ 500 NJ 500 NJ 500 1720
+preplace netloc MP1_0_ram_en_r 1 1 4 NJ 560 NJ 560 NJ 560 1720
+preplace netloc MP1_0_ram_wea 1 1 4 NJ 520 NJ 520 NJ 520 1720
+preplace netloc MP2_0_end_MP2 1 3 2 1180 680 1720J
+preplace netloc MP2_0_ram_addr_r 1 3 2 1220 670 NJ
+preplace netloc MP2_0_ram_addr_w 1 3 2 1170 590 NJ
+preplace netloc MP2_0_ram_data_w 1 3 2 1190 610 NJ
+preplace netloc MP2_0_ram_en 1 3 2 1200 630 NJ
+preplace netloc MP2_0_ram_en_r 1 3 2 1240 690 NJ
+preplace netloc MP2_0_ram_wea 1 3 2 1210 650 NJ
+preplace netloc MUX_mem_out_0_ram_addr_r 1 5 1 2210 480n
+preplace netloc MUX_mem_out_0_ram_addr_w 1 5 1 2160 380n
+preplace netloc MUX_mem_out_0_ram_data_w 1 5 1 N 420
+preplace netloc MUX_mem_out_0_ram_en 1 5 1 N 440
+preplace netloc MUX_mem_out_0_ram_en_ri 1 5 1 2200 500n
+preplace netloc MUX_mem_out_0_ram_wea 1 5 1 N 460
+preplace netloc MUX_mem_out_0_rom_addr_ri 1 5 1 2160 520n
+preplace netloc MUX_mem_out_0_rom_addr_row 1 5 1 2140 600n
+preplace netloc MUX_mem_out_0_rom_addr_rw 1 5 1 2150 560n
+preplace netloc MUX_mem_out_0_rom_en_ri 1 5 1 2170 540n
+preplace netloc MUX_mem_out_0_rom_en_row 1 5 1 2130 620n
+preplace netloc MUX_mem_out_0_rom_en_rw 1 5 1 2120 580n
+preplace netloc blk_ram_temp_doutb 1 0 6 20 210 360 20 820 820 1260 700 1640J 1020 2190
+preplace netloc blk_rom_inimg_douta 1 1 5 420 810 NJ 810 1250J 710 1650J 1000 2160J
+preplace netloc blk_rom_other_weight_douta 1 1 5 430 830 NJ 830 1270 720 1620J 1010 2210J
+preplace netloc blk_rom_weight_douta 1 1 5 410 920 NJ 920 1200 1100 NJ 1100 NJ
+preplace netloc ram_addr_rtb_1 1 0 5 20J 10 NJ 10 NJ 10 NJ 10 1730J
+preplace netloc ram_en_rtb_1 1 0 5 0J 370 360J 420 NJ 420 NJ 420 1640J
+preplace netloc start_ConV1_1 1 0 5 NJ 180 400 410 830J 370 NJ 370 1650
+preplace netloc sys_clk_1 1 0 6 10 360 380 510 830 510 1230 90 1620 30 2180
+levelinfo -pg 1 -20 200 630 1010 1450 1930 2310 2430
+pagesize -pg 1 -db -bbox -sgen -200 0 2560 1360
+"
+}
+0

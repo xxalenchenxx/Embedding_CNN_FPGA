@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/Lab_final_bd/ip/Lab_final_bd_axi_dma_0_0/sim/Lab_final_bd_axi_dma_0_0.vhd" \
+"../../../bd/Lab_final_bd/ip/Lab_final_bd_rst_ps7_0_50M_0/sim/Lab_final_bd_rst_ps7_0_50M_0.vhd" \
+
+nosort

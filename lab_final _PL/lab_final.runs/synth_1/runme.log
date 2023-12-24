@@ -1,0 +1,274 @@
+
+*** Running vivado
+    with args -log NN_bd_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source NN_bd_wrapper.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source NN_bd_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2021.2/data/ip'.
+add_files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1411.941 ; gain = 0.000
+Command: synth_design -top NN_bd_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21960
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_wrapper' [C:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd' [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/synth/NN_bd.v:13]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_ConV1_0_0' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_ConV1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_ConV1_0_0' (1#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_ConV1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_FC_0_0' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_FC_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_FC_0_0' (2#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_FC_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'NN_out_male' of module 'NN_bd_FC_0_0' is unconnected for instance 'FC_0' [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/synth/NN_bd.v:117]
+WARNING: [Synth 8-7071] port 'NN_out_female' of module 'NN_bd_FC_0_0' is unconnected for instance 'FC_0' [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/synth/NN_bd.v:117]
+WARNING: [Synth 8-7023] instance 'FC_0' of module 'NN_bd_FC_0_0' has 18 connections declared, but only 16 given [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/synth/NN_bd.v:117]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_MP1_0_0' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_MP1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_MP1_0_0' (3#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_MP1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_MP2_0_0' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_MP2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_MP2_0_0' (4#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_MP2_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_MUX_mem_out_0_0' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_MUX_mem_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_MUX_mem_out_0_0' (5#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_MUX_mem_out_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_blk_mem_gen_0_1' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_blk_mem_gen_0_1' (6#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_blk_mem_gen_0_2' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_blk_mem_gen_0_2' (7#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_blk_mem_gen_2_0' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_blk_mem_gen_2_0' (8#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_blk_mem_gen_1_0' [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_blk_mem_gen_1_0' (9#1) [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/.Xil/Vivado-2660-DESKTOP-2QICLVD/realtime/NN_bd_blk_mem_gen_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd' (10#1) [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/synth/NN_bd.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_wrapper' (11#1) [C:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v:12]
+WARNING: [Synth 8-7129] Port rst_n in module NN_bd is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1411.941 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/NN_bd_blk_mem_gen_1_0/NN_bd_blk_mem_gen_1_0_in_context.xdc] for cell 'NN_bd_i/blk_rom_weight'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/NN_bd_blk_mem_gen_1_0/NN_bd_blk_mem_gen_1_0_in_context.xdc] for cell 'NN_bd_i/blk_rom_weight'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/NN_bd_blk_mem_gen_2_0/NN_bd_blk_mem_gen_2_0_in_context.xdc] for cell 'NN_bd_i/blk_rom_other_weight'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/NN_bd_blk_mem_gen_2_0/NN_bd_blk_mem_gen_2_0_in_context.xdc] for cell 'NN_bd_i/blk_rom_other_weight'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/NN_bd_blk_mem_gen_0_1/NN_bd_blk_mem_gen_0_1_in_context.xdc] for cell 'NN_bd_i/blk_ram_temp'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/NN_bd_blk_mem_gen_0_1/NN_bd_blk_mem_gen_0_1_in_context.xdc] for cell 'NN_bd_i/blk_ram_temp'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_2/NN_bd_blk_mem_gen_0_2/NN_bd_blk_mem_gen_0_0_in_context.xdc] for cell 'NN_bd_i/blk_rom_inimg'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_2/NN_bd_blk_mem_gen_0_2/NN_bd_blk_mem_gen_0_0_in_context.xdc] for cell 'NN_bd_i/blk_rom_inimg'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MP1_0_0/NN_bd_MP1_0_0/NN_bd_MP1_0_0_in_context.xdc] for cell 'NN_bd_i/MP1_0'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MP1_0_0/NN_bd_MP1_0_0/NN_bd_MP1_0_0_in_context.xdc] for cell 'NN_bd_i/MP1_0'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_ConV1_0_0/NN_bd_ConV1_0_0/NN_bd_ConV1_0_0_in_context.xdc] for cell 'NN_bd_i/ConV1_0'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_ConV1_0_0/NN_bd_ConV1_0_0/NN_bd_ConV1_0_0_in_context.xdc] for cell 'NN_bd_i/ConV1_0'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MUX_mem_out_0_0/NN_bd_MUX_mem_out_0_0/NN_bd_MUX_mem_out_0_0_in_context.xdc] for cell 'NN_bd_i/MUX_mem_out_0'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MUX_mem_out_0_0/NN_bd_MUX_mem_out_0_0/NN_bd_MUX_mem_out_0_0_in_context.xdc] for cell 'NN_bd_i/MUX_mem_out_0'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_FC_0_0/NN_bd_FC_0_0/NN_bd_FC_0_0_in_context.xdc] for cell 'NN_bd_i/FC_0'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_FC_0_0/NN_bd_FC_0_0/NN_bd_FC_0_0_in_context.xdc] for cell 'NN_bd_i/FC_0'
+Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MP2_0_0/NN_bd_MP2_0_0/NN_bd_MP2_0_0_in_context.xdc] for cell 'NN_bd_i/MP2_0'
+Finished Parsing XDC File [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MP2_0_0/NN_bd_MP2_0_0/NN_bd_MP2_0_0_in_context.xdc] for cell 'NN_bd_i/MP2_0'
+Parsing XDC File [C:/Lab_final/lab_final _NN/lab_final.srcs/constrs_1/new/NN_xdc.xdc]
+Finished Parsing XDC File [C:/Lab_final/lab_final _NN/lab_final.srcs/constrs_1/new/NN_xdc.xdc]
+Parsing XDC File [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1411.941 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/blk_rom_weight. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/blk_rom_other_weight. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/blk_ram_temp. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/blk_rom_inimg. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/MP1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/ConV1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/MUX_mem_out_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/FC_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for NN_bd_i/MP2_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port rst_n in module NN_bd is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------+----------+
+|      |BlackBox name         |Instances |
++------+----------------------+----------+
+|1     |NN_bd_ConV1_0_0       |         1|
+|2     |NN_bd_FC_0_0          |         1|
+|3     |NN_bd_MP1_0_0         |         1|
+|4     |NN_bd_MP2_0_0         |         1|
+|5     |NN_bd_MUX_mem_out_0_0 |         1|
+|6     |NN_bd_blk_mem_gen_0_1 |         1|
+|7     |NN_bd_blk_mem_gen_0_2 |         1|
+|8     |NN_bd_blk_mem_gen_2_0 |         1|
+|9     |NN_bd_blk_mem_gen_1_0 |         1|
++------+----------------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |NN_bd_ConV1_0       |     1|
+|2     |NN_bd_FC_0          |     1|
+|3     |NN_bd_MP1_0         |     1|
+|4     |NN_bd_MP2_0         |     1|
+|5     |NN_bd_MUX_mem_out_0 |     1|
+|6     |NN_bd_blk_mem_gen_0 |     2|
+|8     |NN_bd_blk_mem_gen_1 |     1|
+|9     |NN_bd_blk_mem_gen_2 |     1|
+|10    |IBUF                |    19|
+|11    |OBUF                |    10|
++------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1411.941 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1411.941 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1419.586 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1429.203 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 412f9aa0
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1429.203 ; gain = 17.262
+INFO: [Common 17-1381] The checkpoint 'C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/NN_bd_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NN_bd_wrapper_utilization_synth.rpt -pb NN_bd_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 19 13:25:31 2023...

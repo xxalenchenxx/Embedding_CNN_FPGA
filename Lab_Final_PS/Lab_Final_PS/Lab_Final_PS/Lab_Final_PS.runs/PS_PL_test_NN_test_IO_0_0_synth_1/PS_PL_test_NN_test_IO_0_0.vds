@@ -1,0 +1,248 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Nov 26 13:37:42 2023
+# Process ID: 18296
+# Current directory: C:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.runs/PS_PL_test_NN_test_IO_0_0_synth_1
+# Command line: vivado.exe -log PS_PL_test_NN_test_IO_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PS_PL_test_NN_test_IO_0_0.tcl
+# Log file: C:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.runs/PS_PL_test_NN_test_IO_0_0_synth_1/PS_PL_test_NN_test_IO_0_0.vds
+# Journal file: C:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.runs/PS_PL_test_NN_test_IO_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-NR330F3, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 16908 MB
+#-----------------------------------------------------------
+source PS_PL_test_NN_test_IO_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xiang/xillinx/2021.2/2021.2/Vivado/2021.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.cache/ip 
+Command: synth_design -top PS_PL_test_NN_test_IO_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31740
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1452.918 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PS_PL_test_NN_test_IO_0_0' [c:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.gen/sources_1/bd/PS_PL_test/ip/PS_PL_test_NN_test_IO_0_0/synth/PS_PL_test_NN_test_IO_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'NN_test_IO' [C:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.srcs/sources_1/new/NN_test_IO.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'NN_test_IO' (1#1) [C:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.srcs/sources_1/new/NN_test_IO.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PS_PL_test_NN_test_IO_0_0' (2#1) [c:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.gen/sources_1/bd/PS_PL_test/ip/PS_PL_test_NN_test_IO_0_0/synth/PS_PL_test_NN_test_IO_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1452.918 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1452.918 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1452.918 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1452.918 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1453.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.452 . Memory (MB): peak = 1453.699 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:56 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:56 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:56 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'ps_reg' in module 'NN_test_IO'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                              000
+                      OP |                              100 |                              001
+                 END_OP0 |                              011 |                              100
+                 END_OP1 |                              010 |                              101
+                 END_OP2 |                              000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ps_reg' using encoding 'sequential' in module 'NN_test_IO'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:57 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[11] driven by constant 1
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[10] driven by constant 0
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[9] driven by constant 0
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[8] driven by constant 1
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[7] driven by constant 1
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[6] driven by constant 1
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[5] driven by constant 0
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[4] driven by constant 0
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[3] driven by constant 0
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[2] driven by constant 0
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[1] driven by constant 1
+INFO: [Synth 8-3917] design PS_PL_test_NN_test_IO_0_0 has port raddr[0] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:01:01 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:01:15 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:01:15 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:01:16 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |     2|
+|3     |LUT2   |    35|
+|4     |LUT3   |     5|
+|5     |LUT4   |     6|
+|6     |LUT5   |     5|
+|7     |LUT6   |     6|
+|8     |FDRE   |    35|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:01:21 . Memory (MB): peak = 1453.699 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1453.699 ; gain = 0.781
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1464.895 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1476.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 3ee3512b
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:01:45 . Memory (MB): peak = 1476.914 ; gain = 23.996
+INFO: [Common 17-1381] The checkpoint 'C:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.runs/PS_PL_test_NN_test_IO_0_0_synth_1/PS_PL_test_NN_test_IO_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP PS_PL_test_NN_test_IO_0_0, cache-ID = 3890f6a9793a503d
+INFO: [Common 17-1381] The checkpoint 'C:/Xiang/project/Embaded_project/2023/Lab_final_student/Lab_Final_PS/Lab_Final_PS.runs/PS_PL_test_NN_test_IO_0_0_synth_1/PS_PL_test_NN_test_IO_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PS_PL_test_NN_test_IO_0_0_utilization_synth.rpt -pb PS_PL_test_NN_test_IO_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 26 13:39:45 2023...

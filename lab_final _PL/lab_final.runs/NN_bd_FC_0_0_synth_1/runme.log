@@ -1,0 +1,331 @@
+
+*** Running vivado
+    with args -log NN_bd_FC_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source NN_bd_FC_0_0.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source NN_bd_FC_0_0.tcl -notrace
+Command: synth_design -top NN_bd_FC_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16784
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1411.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'NN_bd_FC_0_0' [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_FC_0_0/synth/NN_bd_FC_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'FC' [C:/Lab_final/sources/FC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FC' (1#1) [C:/Lab_final/sources/FC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'NN_bd_FC_0_0' (2#1) [c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_FC_0_0/synth/NN_bd_FC_0_0.v:58]
+WARNING: [Synth 8-7129] Port rom_data_row[31] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[30] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[29] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[28] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[27] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[26] in module FC is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1411.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1411.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1411.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1411.391 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1454.258 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1454.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1454.258 ; gain = 42.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1454.258 ; gain = 42.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1454.258 ; gain = 42.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1454.258 ; gain = 42.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 1     
+	   4 Input   64 Bit       Adders := 1     
+	   3 Input   64 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 7     
+	   2 Input   15 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	               64 Bit    Registers := 3     
+	               26 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               15 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 26    
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 8     
+	                1 Bit    Registers := 7     
++---Multipliers : 
+	              26x64  Multipliers := 1     
++---Muxes : 
+	   4 Input   64 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 6     
+	   3 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 5     
+	   3 Input   15 Bit        Muxes := 1     
+	   5 Input   15 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   3 Input    4 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   5 Input    2 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 27    
+	   2 Input    1 Bit        Muxes := 64    
+	   4 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/sources/FC.v:240]
+DSP Report: Generating DSP q30, operation Mode is: A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: PCIN+A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: PCIN+A2*B.
+DSP Report: register q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+WARNING: [Synth 8-7129] Port rom_data_row[31] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[30] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[29] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[28] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[27] in module FC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[26] in module FC is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1454.258 ; gain = 42.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|FC          | A2*B            | 18     | 10     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FC          | (PCIN>>17)+A2*B | 14     | 10     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FC          | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FC          | PCIN+A2*B       | 18     | 10     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FC          | (PCIN>>17)+A2*B | 18     | 14     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FC          | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FC          | (PCIN>>17)+A2*B | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FC          | PCIN+A2*B       | 18     | 10     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1454.258 ; gain = 42.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1454.258 ; gain = 42.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1473.141 ; gain = 61.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1486.996 ; gain = 75.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1486.996 ; gain = 75.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1486.996 ; gain = 75.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1486.996 ; gain = 75.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1486.996 ; gain = 75.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1486.996 ; gain = 75.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    95|
+|2     |DSP48E1 |     7|
+|3     |LUT1    |     7|
+|4     |LUT2    |   201|
+|5     |LUT3    |   127|
+|6     |LUT4    |   139|
+|7     |LUT5    |    80|
+|8     |LUT6    |   230|
+|9     |MUXF7   |     2|
+|10    |FDRE    |   501|
+|11    |FDSE    |    15|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1486.996 ; gain = 75.605
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 15 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 1486.996 ; gain = 32.738
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1486.996 ; gain = 75.605
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1499.043 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 104 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'NN_bd_FC_0_0' is not ideal for floorplanning, since the cellview 'FC' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 3 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1504.664 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 18fdbe9a
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 1504.664 ; gain = 93.273
+INFO: [Common 17-1381] The checkpoint 'C:/Lab_final/lab_final _NN/lab_final.runs/NN_bd_FC_0_0_synth_1/NN_bd_FC_0_0.dcp' has been generated.
+WARNING: [Coretcl 2-1799] Unable to create IP cache entry for IP NN_bd_FC_0_0: Unable to determine cache-id for IP NN_bd_FC_0_0
+INFO: [Common 17-1381] The checkpoint 'C:/Lab_final/lab_final _NN/lab_final.runs/NN_bd_FC_0_0_synth_1/NN_bd_FC_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NN_bd_FC_0_0_utilization_synth.rpt -pb NN_bd_FC_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 19 12:47:20 2023...

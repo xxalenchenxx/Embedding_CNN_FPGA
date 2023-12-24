@@ -1,0 +1,318 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Dec 19 12:43:15 2023
+# Process ID: 19040
+# Current directory: C:/Lab_final/lab_final _NN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16416 C:\Lab_final\lab_final _NN\lab_final.xpr
+# Log file: C:/Lab_final/lab_final _NN/vivado.log
+# Journal file: C:/Lab_final/lab_final _NN\vivado.jou
+# Running On: DESKTOP-2QICLVD, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 16977 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Lab_final/lab_final _NN/lab_final.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 1412.551 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_module_reference NN_bd_MP2_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+Reading block design file <C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd>...
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_rom_weight
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_rom_other_weight
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_ram_temp
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_rom_inimg
+Adding component instance block -- xilinx.com:module_ref:MP1:1.0 - MP1_0
+Adding component instance block -- xilinx.com:module_ref:ConV1:1.0 - ConV1_0
+Adding component instance block -- xilinx.com:module_ref:MUX_mem_out:1.0 - MUX_mem_out_0
+Adding component instance block -- xilinx.com:module_ref:MP2:1.0 - MP2_0
+Adding component instance block -- xilinx.com:module_ref:FC:1.0 - FC_0
+Successfully read diagram <NN_bd> from block design file <C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd>
+Upgrading 'C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd'
+INFO: [IP_Flow 19-3420] Updated NN_bd_MP2_0_0 to use current project options
+Wrote  : <C:\Lab_final\lab_final _NN\lab_final.srcs\sources_1\bd\NN_bd\NN_bd.bd> 
+Wrote  : <C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/bd/NN_bd/ui/bd_385a9121.ui> 
+upgrade_ip: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1412.551 ; gain = 0.000
+update_module_reference: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1412.551 ; gain = 0.000
+generate_target Simulation [get_files {C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd}]
+WARNING: [Vivado 12-818] No files matched 'C:/Lab_final/lab_final'
+WARNING: [Vivado 12-818] No files matched '_NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd'
+export_ip_user_files -of_objects [get_files {C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd}] -no_script -sync -force -quiet
+WARNING: [Vivado 12-818] No files matched 'C:/Lab_final/lab_final'
+WARNING: [Vivado 12-818] No files matched '_NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd'
+export_simulation -of_objects [get_files {{C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/bd/NN_bd/NN_bd.bd}}] -directory {C:/Lab_final/lab_final _NN/lab_final.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Lab_final/lab_final _NN/lab_final.ip_user_files} -ipstatic_source_dir {C:/Lab_final/lab_final _NN/lab_final.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Lab_final/lab_final _NN/lab_final.cache/compile_simlib/modelsim} {questa=C:/Lab_final/lab_final _NN/lab_final.cache/compile_simlib/questa} {riviera=C:/Lab_final/lab_final _NN/lab_final.cache/compile_simlib/riviera} {activehdl=C:/Lab_final/lab_final _NN/lab_final.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'NN_tb'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+Wrote  : <C:\Lab_final\lab_final _NN\lab_final.srcs\sources_1\bd\NN_bd\NN_bd.bd> 
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/blk_ram_temp/dina'(9) to pin '/MUX_mem_out_0/ram_data_w'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/MP1_0/ram_data_r'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/ConV1_0/ram_data_ri'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/FC_0/ram_data_r'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/MP2_0/ram_data_r'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/synth/NN_bd.v
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/blk_ram_temp/dina'(9) to pin '/MUX_mem_out_0/ram_data_w'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/MP1_0/ram_data_r'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/ConV1_0/ram_data_ri'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/FC_0/ram_data_r'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/MP2_0/ram_data_r'(8) to pin '/blk_ram_temp/doutb'(9) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/sim/NN_bd.v
+VHDL Output written to : c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MP2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FC_0 .
+Exporting to file c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/hw_handoff/NN_bd.hwh
+Generated Hardware Definition File c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/synth/NN_bd.hwdef
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2021.2/data/xsim/xsim.ini' copied to run dir:'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'NN_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/NN_bd_blk_mem_gen_0_2.mif'
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/input_image.coe'
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/NN_bd_blk_mem_gen_1_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/weight.coe'
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/NN_bd_blk_mem_gen_2_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/M0_bias.coe'
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/MaxPool1_gold.coe'
+INFO: [SIM-utils-43] Exported 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim/ConV2_gold.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj NN_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/new/MP1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MP1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/new/ConV1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ConV1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.srcs/sources_1/new/MUX_mem_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_mem_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/sources/MP2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MP2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/sources/FC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/sim/NN_bd_blk_mem_gen_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_blk_mem_gen_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/sim/NN_bd_blk_mem_gen_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_blk_mem_gen_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/sim/NN_bd_blk_mem_gen_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_blk_mem_gen_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_2/sim/NN_bd_blk_mem_gen_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_blk_mem_gen_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MP1_0_0/sim/NN_bd_MP1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_MP1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_ConV1_0_0/sim/NN_bd_ConV1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_ConV1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MUX_mem_out_0_0/sim/NN_bd_MUX_mem_out_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_MUX_mem_out_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MP2_0_0/sim/NN_bd_MP2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_MP2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_FC_0_0/sim/NN_bd_FC_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_FC_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.ip_user_files/bd/NN_bd/sim/NN_bd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_bd_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Lab_final/lab_final _NN/lab_final.srcs/sim_1/new/NN_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NN_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot NN_tb_behav xil_defaultlib.NN_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot NN_tb_behav xil_defaultlib.NN_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'ram_data_rtb' [C:/Lab_final/lab_final _NN/lab_final.srcs/sim_1/new/NN_tb.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ConV1
+Compiling module xil_defaultlib.NN_bd_ConV1_0_0
+Compiling module xil_defaultlib.FC
+Compiling module xil_defaultlib.NN_bd_FC_0_0
+Compiling module xil_defaultlib.MP1
+Compiling module xil_defaultlib.NN_bd_MP1_0_0
+Compiling module xil_defaultlib.MP2
+Compiling module xil_defaultlib.NN_bd_MP2_0_0
+Compiling module xil_defaultlib.MUX_mem_out
+Compiling module xil_defaultlib.NN_bd_MUX_mem_out_0_0
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.NN_bd_blk_mem_gen_0_1
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.NN_bd_blk_mem_gen_0_2
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.NN_bd_blk_mem_gen_2_0
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.NN_bd_blk_mem_gen_1_0
+Compiling module xil_defaultlib.NN_bd
+Compiling module xil_defaultlib.NN_bd_wrapper
+Compiling module xil_defaultlib.NN_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot NN_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1525.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Lab_final/lab_final _NN/lab_final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "NN_tb_behav -key {Behavioral:sim_1:Functional:NN_tb} -tclbatch {NN_tb.tcl} -protoinst "protoinst_files/NN_bd.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/NN_bd.protoinst
+Time resolution is 1 ps
+source NN_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000000ns
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_ram_temp.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_inimg.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_other_weight.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_weight.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Check Coefficient ...
+new filter
+    0, OK: exp =          68, rdata =   68
+    1, OK: exp =         -14, rdata =  -14
+Complete CNN operation time :     5128749  ns; 
+total number of errors  :           0 ; 
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1569.762 ; gain = 0.359
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1569.762 ; gain = 43.770
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'NN_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:51 . Memory (MB): peak = 1569.762 ; gain = 157.211
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/Lab/Embedded_Deep_Neural_Network_Processing/Lab_final/lab_final/lab_final.srcs/utils_1/imports/synth_1/NN_bd_wrapper.dcp with file C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/NN_bd_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Lab_final/lab_final _NN/lab_final.runs/synth_1
+
+launch_runs impl_1 -jobs 4
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MP2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FC_0 .
+[Tue Dec 19 12:46:25 2023] Launched NN_bd_MP2_0_0_synth_1, NN_bd_FC_0_0_synth_1, synth_1...
+Run output will be captured here:
+NN_bd_MP2_0_0_synth_1: C:/Lab_final/lab_final _NN/lab_final.runs/NN_bd_MP2_0_0_synth_1/runme.log
+NN_bd_FC_0_0_synth_1: C:/Lab_final/lab_final _NN/lab_final.runs/NN_bd_FC_0_0_synth_1/runme.log
+synth_1: C:/Lab_final/lab_final _NN/lab_final.runs/synth_1/runme.log
+[Tue Dec 19 12:46:25 2023] Launched impl_1...
+Run output will be captured here: C:/Lab_final/lab_final _NN/lab_final.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1569.762 ; gain = 0.000
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.123 . Memory (MB): peak = 1715.219 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 740 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'NN_bd_wrapper' is not ideal for floorplanning, since the cellview 'NN_bd_ConV1_0_0_ConV1' defined in file 'NN_bd_ConV1_0_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2434.633 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2434.633 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2434.633 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  SRLC32E => SRL16E (inverted pins: CLK): 7 instances
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 2570.945 ; gain = 1001.184
+open_report: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2673.180 ; gain = 94.301
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_ConV1_0_0/NN_bd_ConV1_0_0.dcp' for cell 'NN_bd_i/ConV1_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_FC_0_0/NN_bd_FC_0_0.dcp' for cell 'NN_bd_i/FC_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MP1_0_0/NN_bd_MP1_0_0.dcp' for cell 'NN_bd_i/MP1_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MP2_0_0/NN_bd_MP2_0_0.dcp' for cell 'NN_bd_i/MP2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_MUX_mem_out_0_0/NN_bd_MUX_mem_out_0_0.dcp' for cell 'NN_bd_i/MUX_mem_out_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/NN_bd_blk_mem_gen_0_1.dcp' for cell 'NN_bd_i/blk_ram_temp'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_2/NN_bd_blk_mem_gen_0_2.dcp' for cell 'NN_bd_i/blk_rom_inimg'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/NN_bd_blk_mem_gen_2_0.dcp' for cell 'NN_bd_i/blk_rom_other_weight'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Lab_final/lab_final _NN/lab_final.gen/sources_1/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/NN_bd_blk_mem_gen_1_0.dcp' for cell 'NN_bd_i/blk_rom_weight'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.118 . Memory (MB): peak = 2800.926 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 740 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'NN_bd_wrapper' is not ideal for floorplanning, since the cellview 'NN_bd_ConV1_0_0_ConV1' defined in file 'NN_bd_ConV1_0_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Lab_final/lab_final _NN/lab_final.srcs/constrs_1/new/NN_xdc.xdc]
+Finished Parsing XDC File [C:/Lab_final/lab_final _NN/lab_final.srcs/constrs_1/new/NN_xdc.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2888.656 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2949.844 ; gain = 187.648
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+current_design impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 18808 KB (Peak: 18808 KB), Simulation CPU Usage: 11171 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 19 12:54:19 2023...

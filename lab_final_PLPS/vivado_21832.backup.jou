@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Dec 19 15:07:53 2023
+# Process ID: 21832
+# Current directory: C:/Users/Student/Desktop/Lab_final/lab_final_PLPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17760 C:\Users\Student\Desktop\Lab_final\lab_final_PLPS\lab_final.xpr
+# Log file: C:/Users/Student/Desktop/Lab_final/lab_final_PLPS/vivado.log
+# Journal file: C:/Users/Student/Desktop/Lab_final/lab_final_PLPS\vivado.jou
+# Running On: DESKTOP-2QICLVD, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 16977 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Student/Desktop/Lab_final/lab_final_PLPS/lab_final.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1

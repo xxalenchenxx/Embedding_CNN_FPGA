@@ -1,0 +1,434 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Dec 11 13:26:11 2023
+# Process ID: 2968
+# Current directory: C:/Lab_final/lab_final_PLPS/lab_final.runs/Lab_final_bd_ConV1_0_0_synth_1
+# Command line: vivado.exe -log Lab_final_bd_ConV1_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab_final_bd_ConV1_0_0.tcl
+# Log file: C:/Lab_final/lab_final_PLPS/lab_final.runs/Lab_final_bd_ConV1_0_0_synth_1/Lab_final_bd_ConV1_0_0.vds
+# Journal file: C:/Lab_final/lab_final_PLPS/lab_final.runs/Lab_final_bd_ConV1_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-2QICLVD, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 16977 MB
+#-----------------------------------------------------------
+source Lab_final_bd_ConV1_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1410.887 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top Lab_final_bd_ConV1_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9544
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1410.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Lab_final_bd_ConV1_0_0' [c:/Lab_final/lab_final_PLPS/lab_final.gen/sources_1/bd/Lab_final_bd/ip/Lab_final_bd_ConV1_0_0/synth/Lab_final_bd_ConV1_0_0.v:59]
+INFO: [Synth 8-6157] synthesizing module 'ConV1' [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:247]
+WARNING: [Synth 8-6090] variable 'end_ConV1' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:290]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:362]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:401]
+WARNING: [Synth 8-324] index 103 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 104 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 103 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 105 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 104 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 106 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 105 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 107 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 106 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 108 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 107 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 109 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 108 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 110 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 109 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 111 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 110 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 112 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 111 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 113 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 112 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 114 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 113 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 115 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 114 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 116 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 115 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 117 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 116 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 118 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 117 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 119 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 118 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 120 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 119 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 121 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 120 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 122 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 121 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 123 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 122 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 124 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 123 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 125 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 124 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 126 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 125 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 127 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 126 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2024]
+WARNING: [Synth 8-324] index 51 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 52 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 51 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 53 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 52 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 54 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 53 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 55 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 54 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 56 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 55 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 57 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 56 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 58 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 57 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 59 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 58 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 60 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 59 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 61 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 60 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 62 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 61 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 63 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 62 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 64 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 63 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 65 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 64 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 66 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 65 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 67 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 66 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 68 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 67 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 69 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 68 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 70 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 69 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 71 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 70 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 72 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 71 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 73 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 72 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 74 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 73 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 75 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 74 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 76 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+WARNING: [Synth 8-324] index 75 out of range [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2042]
+INFO: [Common 17-14] Message 'Synth 8-324' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2136]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:2151]
+INFO: [Synth 8-6155] done synthesizing module 'ConV1' (1#1) [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Lab_final_bd_ConV1_0_0' (2#1) [c:/Lab_final/lab_final_PLPS/lab_final.gen/sources_1/bd/Lab_final_bd/ip/Lab_final_bd_ConV1_0_0/synth/Lab_final_bd_ConV1_0_0.v:59]
+WARNING: [Synth 8-7129] Port rom_data_row[31] in module ConV1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[30] in module ConV1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[29] in module ConV1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[28] in module ConV1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[27] in module ConV1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[26] in module ConV1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.383 . Memory (MB): peak = 3660.129 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 3660.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.281 . Memory (MB): peak = 3660.129 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:481]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:481]
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'ConV1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   ConV1 |                               01 |                               01
+                   ConV2 |                               10 |                               10
+                   ConV3 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'ConV1'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
+	  10 Input   24 Bit       Adders := 1     
+	   9 Input   24 Bit       Adders := 1     
+	   4 Input   24 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 4     
+	   2 Input   15 Bit       Adders := 2     
+	   2 Input   13 Bit       Adders := 8     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               26 Bit    Registers := 1     
+	               24 Bit    Registers := 3     
+	               21 Bit    Registers := 1     
+	               16 Bit    Registers := 6     
+	               15 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 756   
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   3 Input   24 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 20    
+	  13 Input   16 Bit        Muxes := 3     
+	   7 Input   16 Bit        Muxes := 1     
+	   3 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 6     
+	   2 Input   15 Bit        Muxes := 4     
+	   2 Input   13 Bit        Muxes := 7     
+	   4 Input   13 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 85    
+	   4 Input    9 Bit        Muxes := 12    
+	   2 Input    8 Bit        Muxes := 724   
+	   3 Input    8 Bit        Muxes := 104   
+	   4 Input    7 Bit        Muxes := 2     
+	   4 Input    6 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 2     
+	  12 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 5     
+	  12 Input    2 Bit        Muxes := 1     
+	  12 Input    1 Bit        Muxes := 22    
+	   2 Input    1 Bit        Muxes := 935   
+	  13 Input    1 Bit        Muxes := 1299  
+	   4 Input    1 Bit        Muxes := 20    
+	   3 Input    1 Bit        Muxes := 214   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:481]
+WARNING: [Synth 8-6014] Unused sequential element q30 was removed.  [C:/Lab_final/lab_final_PLPS/lab_final.srcs/sources_1/new/ConV1.v:481]
+DSP Report: Generating DSP q30, operation Mode is: A2*B.
+DSP Report: register sum_z1a2_bias_reg is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: Generating DSP q30, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register sum_z1a2_bias_reg is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+DSP Report: operator q30 is absorbed into DSP q30.
+WARNING: [Synth 8-7129] Port rom_data_row[31] in module Lab_final_bd_ConV1_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[30] in module Lab_final_bd_ConV1_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[29] in module Lab_final_bd_ConV1_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[28] in module Lab_final_bd_ConV1_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[27] in module Lab_final_bd_ConV1_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rom_data_row[26] in module Lab_final_bd_ConV1_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:34 ; elapsed = 00:02:41 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ConV1       | A2*B            | 24     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|ConV1       | (PCIN>>17)+A2*B | 24     | 9      | -      | -      | 33     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:43 ; elapsed = 00:02:50 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:43 ; elapsed = 00:02:50 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:46 ; elapsed = 00:02:54 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:52 ; elapsed = 00:02:59 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:52 ; elapsed = 00:02:59 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:52 ; elapsed = 00:02:59 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:52 ; elapsed = 00:02:59 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:57 ; elapsed = 00:03:04 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:57 ; elapsed = 00:03:04 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |   403|
+|2     |DSP48E1 |     2|
+|3     |LUT1    |   128|
+|4     |LUT2    |   651|
+|5     |LUT3    |  4870|
+|6     |LUT4    |   781|
+|7     |LUT5    |  1775|
+|8     |LUT6    |  2221|
+|9     |MUXF7   |   104|
+|10    |FDRE    |  6512|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:57 ; elapsed = 00:03:04 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:53 ; elapsed = 00:02:59 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+Synthesis Optimization Complete : Time (s): cpu = 00:02:57 ; elapsed = 00:03:05 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 3660.129 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 509 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Lab_final_bd_ConV1_0_0' is not ideal for floorplanning, since the cellview 'ConV1' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3660.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 90608ce3
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:03 ; elapsed = 00:03:14 . Memory (MB): peak = 3660.129 ; gain = 2249.242
+INFO: [Common 17-1381] The checkpoint 'C:/Lab_final/lab_final_PLPS/lab_final.runs/Lab_final_bd_ConV1_0_0_synth_1/Lab_final_bd_ConV1_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Lab_final_bd_ConV1_0_0, cache-ID = 8e9db63deeccf8a5
+INFO: [Common 17-1381] The checkpoint 'C:/Lab_final/lab_final_PLPS/lab_final.runs/Lab_final_bd_ConV1_0_0_synth_1/Lab_final_bd_ConV1_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Lab_final_bd_ConV1_0_0_utilization_synth.rpt -pb Lab_final_bd_ConV1_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 11 13:30:19 2023...

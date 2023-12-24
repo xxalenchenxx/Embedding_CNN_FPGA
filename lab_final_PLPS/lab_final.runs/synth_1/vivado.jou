@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Dec 19 14:49:05 2023
+# Process ID: 2132
+# Current directory: C:/Users/Student/Desktop/Lab_final/lab_final_PLPS/lab_final.runs/synth_1
+# Command line: vivado.exe -log Lab_final_bd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab_final_bd_wrapper.tcl
+# Log file: C:/Users/Student/Desktop/Lab_final/lab_final_PLPS/lab_final.runs/synth_1/Lab_final_bd_wrapper.vds
+# Journal file: C:/Users/Student/Desktop/Lab_final/lab_final_PLPS/lab_final.runs/synth_1\vivado.jou
+# Running On: DESKTOP-2QICLVD, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 16977 MB
+#-----------------------------------------------------------
+source Lab_final_bd_wrapper.tcl -notrace

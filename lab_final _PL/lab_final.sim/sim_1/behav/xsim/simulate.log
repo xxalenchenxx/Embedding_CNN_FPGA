@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_ram_temp.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_inimg.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_other_weight.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_weight.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Check Coefficient ...
+new filter
+    0, OK: exp =          68, rdata =   68
+    1, OK: exp =         -14, rdata =  -14
+Complete CNN operation time :     5128749  ns; 
+total number of errors  :           0 ; 
+INFO: xsimkernel Simulation Memory Usage: 18824 KB (Peak: 18824 KB), Simulation CPU Usage: 11140 ms

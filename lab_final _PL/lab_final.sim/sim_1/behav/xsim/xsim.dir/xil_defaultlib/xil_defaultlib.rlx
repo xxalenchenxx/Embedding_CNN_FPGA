@@ -1,0 +1,22 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v,1702961108,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.srcs/sim_1/new/NN_tb.v,,NN_bd_wrapper,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_ConV1_0_0/sim/NN_bd_ConV1_0_0.v,1702271193,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MUX_mem_out_0_0/sim/NN_bd_MUX_mem_out_0_0.v,,NN_bd_ConV1_0_0,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_FC_0_0/sim/NN_bd_FC_0_0.v,1702269490,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MP2_0_0/sim/NN_bd_MP2_0_0.v,,NN_bd_FC_0_0,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MP1_0_0/sim/NN_bd_MP1_0_0.v,1702268897,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_ConV1_0_0/sim/NN_bd_ConV1_0_0.v,,NN_bd_MP1_0_0,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MP2_0_0/sim/NN_bd_MP2_0_0.v,1702268897,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/sim/NN_bd.v,,NN_bd_MP2_0_0,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MUX_mem_out_0_0/sim/NN_bd_MUX_mem_out_0_0.v,1702271193,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_FC_0_0/sim/NN_bd_FC_0_0.v,,NN_bd_MUX_mem_out_0_0,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/sim/NN_bd_blk_mem_gen_0_1.v,1701918998,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_2/sim/NN_bd_blk_mem_gen_0_2.v,,NN_bd_blk_mem_gen_0_1,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_2/sim/NN_bd_blk_mem_gen_0_2.v,1701918999,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_MP1_0_0/sim/NN_bd_MP1_0_0.v,,NN_bd_blk_mem_gen_0_2,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/sim/NN_bd_blk_mem_gen_1_0.v,1701918998,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/sim/NN_bd_blk_mem_gen_2_0.v,,NN_bd_blk_mem_gen_1_0,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/sim/NN_bd_blk_mem_gen_2_0.v,1701918998,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/sim/NN_bd_blk_mem_gen_0_1.v,,NN_bd_blk_mem_gen_2_0,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/sim/NN_bd.v,1702271650,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v,,NN_bd,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.srcs/sim_1/new/NN_tb.v,1702961086,verilog,,,,NN_tb,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.srcs/sources_1/new/ConV1.v,1702271158,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.srcs/sources_1/new/MUX_mem_out.v,,ConV1,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.srcs/sources_1/new/MP1.v,1702268599,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.srcs/sources_1/new/ConV1.v,,MP1,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.srcs/sources_1/new/MUX_mem_out.v,1702271159,verilog,,C:/Users/Student/Desktop/Lab_final/sources/FC.v,,MUX_mem_out,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/sources/FC.v,1702282228,verilog,,C:/Users/Student/Desktop/Lab_final/sources/MP2.v,,FC,,,,,,,,
+C:/Users/Student/Desktop/Lab_final/sources/MP2.v,1702282208,verilog,,C:/Users/Student/Desktop/Lab_final/lab_final _PL/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/sim/NN_bd_blk_mem_gen_1_0.v,,MP2,,,,,,,,

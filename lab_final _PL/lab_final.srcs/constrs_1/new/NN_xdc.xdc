@@ -1,0 +1,1 @@
+create_clock -period 23.9 -name sys_clk -waveform {0.000 11.950} [get_ports sys_clk]
